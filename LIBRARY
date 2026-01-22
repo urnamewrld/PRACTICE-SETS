@@ -1,0 +1,22 @@
+has_id = True
+allowed_to_borrow = True
+overdue_books = False
+penalty = 50
+
+#Code above can be changed
+
+if has_id:
+    if allowed_to_borrow:
+        if overdue_books:
+            print ("You have overdue books - You cannot borrow")
+        else:
+            if penalty == 0:
+                print ("You can borrow books")
+            elif penalty < 100:
+                print ("Pay penalty to borrow")
+            else:
+                print ("Penalty too high")
+    else:
+        print ("Borrowing not allowed")
+else:
+    print ("No Library ID - Access Denied")
