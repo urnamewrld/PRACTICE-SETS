@@ -1,0 +1,13 @@
+score = 82 #can be any number from 1-100
+present = False #can be true or false
+
+
+if present:
+    if score >= 90:
+        print ("excellent")
+    elif score >= 75:
+        print ("Passed")
+    else:
+        print("failed")
+else:
+    print ("Absent - No Score")
