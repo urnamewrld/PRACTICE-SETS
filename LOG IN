@@ -1,0 +1,10 @@
+username = "test_01" #Can be changed for the statement to appear false
+password = "1234567890" #Can be changed for the statement to appear false
+
+if username == "test_01":
+    if password == "1234567890":
+        print ("Log in Successful")
+    else:
+        print ("Wrong Password")
+else: 
+    print("User not found")
