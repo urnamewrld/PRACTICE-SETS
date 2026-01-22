@@ -1,0 +1,18 @@
+logged_in = True
+balance = 500
+order_amount = 350
+
+#Code above can be changed 
+
+if logged_in:
+    if balance >= order_amount:
+        if order_amount >= 400:
+            print ("Order confirmed, you got 20% discount")
+        elif order_amount >= 300:
+            print ("Order confirmed, you got 10% discount")
+        else:
+            print ("Order confirmed, no discount")
+    else:
+        print ("Insufficient Balance")
+else:
+    print ("Log in to order")
