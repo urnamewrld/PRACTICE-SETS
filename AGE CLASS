@@ -1,0 +1,9 @@
+age = 12 #Can be changed
+
+if age >= 13:
+    if age >= 18:
+        print ("Adult")
+    else:
+        print ("Teenager")
+else:
+    print ("Child")
