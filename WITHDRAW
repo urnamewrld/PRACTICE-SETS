@@ -1,0 +1,10 @@
+balance = int(input("Enter your balance: "))
+withdraw_amount = int(input("Enter your amount: "))
+
+if balance >= withdraw_amount:
+    if withdraw_amount <= 10000:
+        print ("Withdrawal Approved")
+    else:
+        print ("Withdrawal Limit Exceeded")
+else:
+    print ("Insufficient Balance")
