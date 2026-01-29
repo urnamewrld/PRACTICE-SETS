@@ -1,0 +1,9 @@
+grade = int(input("Enter your grade: "))
+
+if grade >= 75:
+    if grade >= 90:
+        print ("With Honors")
+    else:
+        print ("Passed")
+else: 
+    print ("Failed")
