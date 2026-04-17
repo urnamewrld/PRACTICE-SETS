@@ -1,0 +1,18 @@
+"""
+create a function (any name) then under that function decleare two varaibles
+namely x any y, any value of x and y. Create an inner function (any name). You will get the 
+product of x and y and then print it. Call the inner function and lastly call the outer function
+(The only output is the product)
+"""
+
+
+
+def outer_function():
+    x = 5023
+    y = 2546
+    
+    def inner_function():
+        product = x * y
+        print (product)
+    inner_function()
+outer_function()
