@@ -10,3 +10,16 @@ def circle_area():
 
 rectangle_area()
 circle_area()
+
+
+#OR
+
+def rectangle_area(length, width):
+    area = length * width
+    print (f" The area of the rectangle is {area}")
+rectangle_area(75, 80)
+
+def circle_area(radius):
+    area = 3.14 * (radius * radius)
+    print(f" The area of the circle is {area}")
+circle_area(25)
