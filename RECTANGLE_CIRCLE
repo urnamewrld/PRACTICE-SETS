@@ -1,0 +1,12 @@
+def rectangle_area():
+    rectangle_length = 75
+    rectangle_width = 80
+    print ("The area of the rectangle is",  rectangle_length * rectangle_width)
+
+def circle_area():
+    radius = 25
+    pi_value = 3.14
+    print ("The area of the circle is",  pi_value * radius * radius)
+
+rectangle_area()
+circle_area()
